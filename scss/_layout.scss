@@ -1,0 +1,203 @@
+@import 'config.scss';
+
+html,
+body {
+  overflow: hidden;
+  font-family: $primary-font;
+  background-color: $secondary-color;
+  width: 100%;
+
+  // h1 {
+  //   font-size: $h1-sm;
+
+  //   @include for-sm-only {
+  //   }
+
+  //   @include for-md-only {
+  //   }
+
+  //   @include for-lg-only {
+  //     font-size: $h1-xl;
+  //   }
+
+  //   @include for-xl-only {
+  //   }
+  // }
+
+  // h2 {
+  //   font-size: $h2-sm;
+
+  //   @include for-sm-only {
+  //   }
+
+  //   @include for-md-only {
+  //   }
+
+  //   @include for-lg-only {
+  //     font-size: $h2-xl;
+  //   }
+
+  //   @include for-xl-only {
+  //   }
+  // }
+
+  // h3 {
+  //   font-size: $h3-sm;
+
+  //   @include for-sm-only {
+  //   }
+
+  //   @include for-md-only {
+  //   }
+
+  //   @include for-lg-only {
+  //     font-size: $h3-xl;
+  //   }
+
+  //   @include for-xl-only {
+  //   }
+  // }
+
+  // p {
+  //   font-size: $p-sm;
+
+  //   @include for-sm-only {
+  //   }
+
+  //   @include for-md-only {
+  //   }
+
+  //   @include for-lg-only {
+  //     font-size: $p-xl;
+  //   }
+
+  //   @include for-xl-only {
+  //   }
+  // }
+
+  .modal-open {
+    width: 100% !important;
+    padding-right: 0 !important;
+    // overflow: hidden !important;
+  }
+}
+
+#section {
+  // position: relative;
+
+  &-1 {
+    background-color: $primary-color;
+    // background: linear-gradient(
+    //   0deg,
+    //   rgb(245, 245, 245) 0%,
+    //   rgb(45, 45, 45) 10%,
+    //   rgb(45, 45, 45) 100%
+    // );
+    color: $secondary-font-color;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  &-2,
+  &-3,
+  &-4 {
+    background-color: $secondary-color;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+  &-5 {
+    background-color: $primary-color;
+    color: $secondary-font-color;
+    height: 85vh;
+    height: calc(var(--vh, 1vh) * 85);
+    opacity: 0;
+
+    @include for-md-only {
+      height: 90vh;
+      height: calc(var(--vh, 1vh) * 90);
+    }
+
+    hr {
+      border-color: $secondary-color;
+    }
+  }
+}
+
+// Landing
+#type {
+  color: $comment;
+}
+
+.sub {
+  height: 40px;
+}
+
+// Content Area
+.content {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+// About
+.about {
+  width: 100%;
+  margin-left: -105%;
+
+  @include for-md-only {
+    margin-left: -100%;
+  }
+}
+
+// Skills
+.skills {
+  margin-right: -105%;
+  float: right;
+
+  @include for-md-only {
+    margin-right: -100%;
+    float: none;
+  }
+}
+
+// Portfolio
+.portfolio {
+  margin-left: -105%;
+}
+
+// Contact
+
+// Footer
+footer {
+  height: 15vh;
+  height: calc(var(--vh, 1vh) * 15);
+  background-color: $comp-color;
+  color: $primary-color;
+
+  @include for-md-only {
+    height: 10vh;
+    height: calc(var(--vh, 1vh) * 10);
+  }
+
+  a {
+    color: $primary-color;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary-color;
+    }
+  }
+
+  i {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

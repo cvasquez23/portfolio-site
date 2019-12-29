@@ -1,0 +1,103 @@
+//Fonts
+@font-face {
+  font-family: 'monoidnormal';
+  src: url('/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff2') format('woff2'),
+    url('/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+$primary-font: 'monoidnormal';
+
+// Background Colors
+$primary-color: #2d2d2d;
+$secondary-color: #f5f5f5;
+$comp-color: #4eb89f;
+
+// Font Colors
+$primary-font-color: #2d2d2d;
+$secondary-font-color: #f5f5f5;
+$comment: #9f9f9f;
+$purple: #a864a8;
+$darkpurple: #8560a8;
+$orange: #f68e56;
+$red: red;
+$lightblue: #00bff3;
+$yellow: #fff200;
+
+// Font Sizes
+// XL
+$h1-xl: 3rem;
+$h2-xl: 2.5rem;
+$h3-xl: 1.5rem;
+$p-xl: 1.5rem;
+$span-xl: 1.7rem;
+$i-xl: 3rem;
+$button-xl: 0.9rem;
+
+// LG
+$h1-lg: 0.5rem;
+$h2-lg: 2.75rem;
+
+// MD
+
+// SM
+$h1-sm: 1.5rem;
+$h2-sm: 1.25rem;
+$h3-sm: 0.75rem;
+$p-sm: 0.75rem;
+$span-sm: 0.85rem;
+$i-sm: 1.5rem;
+$button-sm: 0.45rem;
+
+// XS
+//Mixins
+@mixin button {
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  // font-size: $button-xl;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 0 $comp-color;
+  transition: ease-out 0.4s;
+}
+
+@mixin for-xl-only {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-lg-only {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin for-md-only {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-sm-only {
+  @media only screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+=============*/
