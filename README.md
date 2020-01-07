@@ -2,8 +2,8 @@
 
 ---
 
-> Web developer with 4+ years of experience developing, 
-> implementing and maintinging websites. Passionate
+> Web developer with 4+ years experience developing, 
+> implementing and maintaining websites. Passionate
 > for learning, building and bringing websites to life.
 > Seeking a remote web developer position.
 
