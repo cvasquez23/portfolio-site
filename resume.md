@@ -15,7 +15,8 @@
 
 ## Experience
 
-**Web Developer / IT Technician, 03/2016 to Current:**
+**Web Developer / IT Technician, 03/2016 to Current**
+
 **Isabella County - Mount Pleasant, MI**
 
 Develops and maintains the Isabella County Websites. Researches technologies
@@ -29,6 +30,7 @@ accessible and relevant to all.
   County website that went live in 12/2019.
 
 **Freelance Web Developer, 11/2018 to Current**
+
 **Giem Photography - Grand Rapids, MI**
 
 Developing a Wordpress theme and website for Giem Photography.
