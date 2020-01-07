@@ -2,9 +2,10 @@
 
 ---
 
-> Web developer in Mount Pleasant, Michigan who has a passion
+> Web developer with 4+ years of experience developing, 
+> implementing and maintinging websites. Passionate
 > for learning, building and bringing websites to life.
-> Seeking a remote front-end web developer position.
+> Seeking a remote web developer position.
 
 ---
 
