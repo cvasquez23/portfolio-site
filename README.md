@@ -41,7 +41,7 @@ Developing a Wordpress theme and website for Giem Photography.
 
 Web Development
 
-    HTML5, CSS3, SCSS, JavaScript, jQuery, MySQL, Bootstrap, Wordpress, Git Version Control, NPM, cPanel
+    HTML5, CSS3, SCSS, JavaScript, jQuery, MySQL, Bootstrap, WordPress, Git Version Control, NPM, cPanel
 
 Software
 
