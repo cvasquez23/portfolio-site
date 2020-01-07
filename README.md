@@ -23,7 +23,7 @@ Develops and maintains the Isabella County Website. Researches technologies
 to enable the website presence to grow with further functionalities to make the website
 accessible and relevant.
 
-- Current Website Administrator for
+- Current website administrator for
   [Isabella County](https://www.isabellacounty.org).
 
 - Involved in the production and implementation of the current Isabella
@@ -35,7 +35,7 @@ accessible and relevant.
 
 Developing a Wordpress theme and website for Giem Photography.
 
-- Current Website Administrator and developer for
+- Current website administrator and developer for
   [Giem Photography](https://www.giemphotography.com).
 
 ## Technical Skills
