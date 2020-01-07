@@ -10,8 +10,7 @@
 
 ## Education
 
-2009-2014
-: **B.S., Law & Economics**; Central Michigan University (Mount Pleasant, MI)
+2009-2014: **B.S., Law & Economics**; Central Michigan University (Mount Pleasant, MI)
 
 ## Experience
 
@@ -20,7 +19,7 @@
 **Isabella County - Mount Pleasant, MI**
 
 Develops and maintains the Isabella County Website. Researches technologies
-to enable the website presence to grow with further abilites to make the website
+to enable the website presence to grow with further functionalities to make the website
 accessible and relevant to all.
 
 - Current Website Administrator for
@@ -46,7 +45,7 @@ Web Development
 
 Software
 
-    Adobe Creative Suite, MAC OS, Windows OS, Linux OS
+    Adobe Creative Suite, Mac OS, Windows OS, Linux OS
 
 ---
 
