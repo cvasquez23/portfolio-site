@@ -19,7 +19,7 @@
 
 **Isabella County - Mount Pleasant, MI**
 
-Develops and maintains the Isabella County Websites. Researches technologies
+Develops and maintains the Isabella County Website. Researches technologies
 to enable the website presence to grow with further abilites to make the website
 accessible and relevant to all.
 
