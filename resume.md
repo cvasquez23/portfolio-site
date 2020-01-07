@@ -4,7 +4,7 @@
 
 > Web developer in Mount Pleasant, Michigan who has a passion
 > for learning, building and bringing websites to life.
-> Seeking a remote front end web developer position.
+> Seeking a remote front-end web developer position.
 
 ---
 
