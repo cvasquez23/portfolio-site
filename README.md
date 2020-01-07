@@ -20,7 +20,7 @@
 
 Develops and maintains the Isabella County Website. Researches technologies
 to enable the website presence to grow with further functionalities to make the website
-accessible and relevant to all.
+accessible and relevant.
 
 - Current Website Administrator for
   [Isabella County](https://www.isabellacounty.org).
