@@ -11,7 +11,7 @@
 ## Education
 
 2009-2014
-: **B.S., Law & Economics**; Central Michigan University (Mt. Pleasant, MI)
+: **B.S., Law & Economics**; Central Michigan University (Mount Pleasant, MI)
 
 ## Experience
 
