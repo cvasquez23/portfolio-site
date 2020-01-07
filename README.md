@@ -19,7 +19,7 @@
 
 **Isabella County - Mount Pleasant, MI**
 
-Develops and maintains the Isabella County Website. Researches technologies
+Develops and maintains the Isabella County website. Researches technologies
 to enable the website presence to grow with further functionalities to make the website
 accessible and relevant.
 
@@ -33,7 +33,7 @@ accessible and relevant.
 
 **Giem Photography - Grand Rapids, MI**
 
-Developing a Wordpress theme and website for Giem Photography.
+Developing a WordPress theme and website for Giem Photography.
 
 - Current website administrator and developer for
   [Giem Photography](https://www.giemphotography.com).
