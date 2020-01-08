@@ -29,7 +29,7 @@ accessible and relevant.
 - Involved in the production and implementation of the current Isabella
   County website that went live in 12/2019.
 
-**Freelance Web Developer, 11/2018 to Current**
+**Freelance Web Developer, 12/2018 to Current**
 
 **Giem Photography - Grand Rapids, MI**
 
