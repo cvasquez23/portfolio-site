@@ -1,3 +1,9 @@
-@import 'config.scss';
-@import 'layout.scss';
-@import 'components.scss';
+@import 'base/base', 'base/typography';
+
+@import 'abstracts/mixins', 'abstracts/variables';
+
+@import 'layout', 'layout/nav';
+
+@import 'components/button', 'components/card', 'components/hr',
+  'components/indicator', 'components/modal', 'components/portfolio-card';
+@import 'components';

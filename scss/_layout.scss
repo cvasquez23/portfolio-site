@@ -2,101 +2,22 @@
 
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: $primary-font;
   background-color: $secondary-color;
   width: 100%;
 
-  // h1 {
-  //   font-size: $h1-sm;
-
-  //   @include for-sm-only {
-  //   }
-
-  //   @include for-md-only {
-  //   }
-
-  //   @include for-lg-only {
-  //     font-size: $h1-xl;
-  //   }
-
-  //   @include for-xl-only {
-  //   }
-  // }
-
-  // h2 {
-  //   font-size: $h2-sm;
-
-  //   @include for-sm-only {
-  //   }
-
-  //   @include for-md-only {
-  //   }
-
-  //   @include for-lg-only {
-  //     font-size: $h2-xl;
-  //   }
-
-  //   @include for-xl-only {
-  //   }
-  // }
-
-  // h3 {
-  //   font-size: $h3-sm;
-
-  //   @include for-sm-only {
-  //   }
-
-  //   @include for-md-only {
-  //   }
-
-  //   @include for-lg-only {
-  //     font-size: $h3-xl;
-  //   }
-
-  //   @include for-xl-only {
-  //   }
-  // }
-
-  // p {
-  //   font-size: $p-sm;
-
-  //   @include for-sm-only {
-  //   }
-
-  //   @include for-md-only {
-  //   }
-
-  //   @include for-lg-only {
-  //     font-size: $p-xl;
-  //   }
-
-  //   @include for-xl-only {
-  //   }
-  // }
-
   .modal-open {
     width: 100% !important;
     padding-right: 0 !important;
-    // overflow: hidden !important;
+    //overflow: hidden !important;
   }
 }
 
 #section {
-  // position: relative;
-
   &-1 {
     background-color: $primary-color;
-    // background: linear-gradient(
-    //   0deg,
-    //   rgb(245, 245, 245) 0%,
-    //   rgb(45, 45, 45) 10%,
-    //   rgb(45, 45, 45) 100%
-    // );
     color: $secondary-font-color;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-
     span {
       font-size: 1.2rem;
     }
@@ -106,8 +27,6 @@ body {
   &-3,
   &-4 {
     background-color: $secondary-color;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
   }
 
   &-5 {
@@ -128,7 +47,7 @@ body {
   }
 }
 
-// Landing
+//Landing
 #type {
   color: $comment;
 }
@@ -137,13 +56,13 @@ body {
   height: 40px;
 }
 
-// Content Area
+//Content Area
 .content {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  //height: 100vh;
+  //height: calc(var(--vh, 1vh) * 100);
 }
 
-// About
+//About
 .about {
   width: 100%;
   margin-left: -105%;
@@ -153,7 +72,16 @@ body {
   }
 }
 
-// Skills
+.email {
+  color: $link-color;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-color;
+  }
+}
+
+//Skills
 .skills {
   margin-right: -105%;
   float: right;
@@ -164,14 +92,14 @@ body {
   }
 }
 
-// Portfolio
+//Portfolio
 .portfolio {
   margin-left: -105%;
 }
 
-// Contact
+//Contact
 
-// Footer
+//Footer
 footer {
   height: 15vh;
   height: calc(var(--vh, 1vh) * 15);

@@ -1,0 +1,27 @@
+.card {
+  border: none;
+  background-color: $secondary-color;
+  width: 6rem;
+
+  @include for-sm-only {
+    width: 6.5rem;
+  }
+
+  span {
+    //font-size: 0.55rem;
+    @include for-sm-only {
+      //font-size: 1rem;
+    }
+  }
+
+  i {
+    font-size: 2rem;
+  }
+}
+
+.card-button {
+  @include button;
+
+  background-color: $secondary-color;
+  color: $primary-color;
+}

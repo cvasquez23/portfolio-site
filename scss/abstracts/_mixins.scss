@@ -1,0 +1,32 @@
+@mixin for-xl-only {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-lg-only {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin for-md-only {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-sm-only {
+  @media only screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin button {
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 0 $comp-color;
+  transition: ease-out 0.4s;
+}
