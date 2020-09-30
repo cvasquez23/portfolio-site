@@ -16,7 +16,7 @@ function style() {
       // pass through scss compiler
       .pipe(sass().on('error', sass.logError))
       // where to save
-      .pipe(gulp.dest('.'))
+      .pipe(gulp.dest('./css'))
       // stream changes to all browsers
       .pipe(browserSync.stream())
   );

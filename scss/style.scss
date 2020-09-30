@@ -1,9 +1,9 @@
-@import 'base/base', 'base/typography';
-
 @import 'abstracts/mixins', 'abstracts/variables';
 
-@import 'layout', 'layout/nav';
+@import 'base/base', 'base/typography';
+
+@import 'layout/footer', 'layout/nav', 'layout/slides';
 
 @import 'components/button', 'components/card', 'components/hr',
-  'components/indicator', 'components/modal', 'components/portfolio-card';
-@import 'components';
+  'components/indicator', 'components/modal', 'components/portfolio-card',
+  'components/text-cursor';

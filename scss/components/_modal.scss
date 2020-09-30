@@ -3,3 +3,9 @@
   border-radius: 0.3rem;
   box-shadow: 0 30px 30px 5px rgba(15, 26, 39, 0.2);
 }
+
+.modal-open {
+  width: 100% !important;
+  padding-right: 0 !important;
+  //overflow: hidden !important;
+}

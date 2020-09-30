@@ -1,12 +1,16 @@
 //Fonts
 @font-face {
-  font-family: 'monoidnormal';
+  font-family: 'monoid';
   src: url('/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff2') format('woff2'),
     url('/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-$primary-font: 'monoidnormal';
+
+html,
+body {
+  font-family: 'monoid';
+}
 
 $h1-xl: 3rem;
 $h2-xl: 2.5rem;

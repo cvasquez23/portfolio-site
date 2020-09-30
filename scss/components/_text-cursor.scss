@@ -1,0 +1,10 @@
+.cursor {
+  animation: blink 1s infinite;
+  color: $comment;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
