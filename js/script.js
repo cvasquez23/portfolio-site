@@ -1,12 +1,26 @@
-// Nav Toggle
-$('.menu-collapsed').click(function () {
-  $(this).toggleClass('menu-expanded');
+//Fullpage JS
+var myFullpage = new fullpage('#fullpage', {
+  navigation: true,
+  anchors: ['page1', 'page2'],
+  scrollingSpeed: 1500,
+  easing: 'ease-in-out',
 });
 
-// Disable .menu-expanded On Nav Click
-$('.nav-link').click(function () {
-  $('div:first').toggleClass('menu-expanded');
+$(document).on('click', '#slide2', function () {
+  fullpage_api.moveTo('page2');
 });
+
+// Nav Toggle
+function menuToggle() {
+  var element = document.getElementById('nav');
+  element.classList.toggle('menu-expanded');
+}
+
+// Disable .menu-expanded On Nav Click
+function menuCollapse() {
+  var element = document.getElementById('#nav');
+  element.classList.remove('menu-expanded');
+}
 
 // Typewriter Effect
 var pos = 0;
@@ -24,24 +38,3 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-
-// Smooth Scroll
-function scrollButton() {
-  $('a[href*="#"]').click(function () {
-    $('html, body')
-      .stop()
-      .animate(
-        {
-          scrollTop: $($(this).attr('href')).offset().top,
-        },
-        1500
-      );
-    return false;
-  });
-  // $('.scrollTop a').scrollTop();
-}
-scrollButton();
-
-window.addEventListener('scroll', function () {
-  console.log("Scrollin'");
-});

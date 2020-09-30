@@ -19,12 +19,16 @@
   </head>
   <body>
     <header>
-      <div class="menu-collapsed">
+      <div id="nav" class="menu-collapsed" onclick="menuToggle()">
         <div class="toggler"></div>
         <nav>
           <ul>
-            <li><a class="nav-link" href="#section-1">Home</a></li>
-            <li><a class="nav-link" href="#section-2">About</a></li>
+            <li><a id="slide1" class="nav-link">Home</a></li>
+            <li>
+              <a id="slide2" class="nav-link" href="#" onclick="menuCollapse()">
+                About
+              </a>
+            </li>
             <li><a class="nav-link" href="#section-3">Skills</a></li>
             <li><a class="nav-link" href="#section-4">Projects</a></li>
             <li><a class="nav-link" href="#section-5">Contact</a></li>
@@ -45,7 +49,7 @@
                 <span class="cursor">|</span>
               </div>
               <div>
-                <a id="progress" href="#section-2" class="indicator">
+                <a id="slide2" class="indicator">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -129,13 +133,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/js/fullpage.js"></script>
-    <script type="text/javascript">
-      var myFullpage = new fullpage('#fullpage', {
-        scrollingSpeed: 1500,
-        easing: 'ease-in-out',
-        fitToSection: false,
-      });
-    </script>
     <script src="/js/script.js"></script>
   </body>
 </html>
