@@ -10,34 +10,26 @@
 //About
 .about {
   width: 100%;
-  margin-left: -105%;
-
-  @include for-md-only {
-    margin-left: -100%;
-  }
+  // To fix off-screen on mobile put this in a for-sm-only mixin
+  // margin-left: -10%;
 }
 
 .email {
   color: $link-color;
+  text-decoration: none;
 
   &:hover {
-    text-decoration: none;
     color: $link-color;
   }
 }
 
 //Skills
 .skills {
-  margin-right: -105%;
-  float: right;
-
-  @include for-md-only {
-    margin-right: -100%;
-    float: none;
+  .card {
+    padding-bottom: 1rem;
   }
 }
 
 //Portfolio
 .portfolio {
-  margin-left: -105%;
 }
