@@ -8,15 +8,16 @@ var myFullpage = new fullpage('#fullpage', {
   onLeave: (origin, destination, direction) => {
     const section = destination.item;
     // const title = section.querySelector('.section');
-    const tl = new TimelineMax({ delay: 1 });
+    const tl = gsap.timeline();
     // tl.fromTo(title, 0.5, { opacity: '1' }, { opacity: '0' });
     if (destination.index === 1) {
-      const aboutCard = document.querySelectorAll('.about');
-      tl.fromTo(aboutCard, 0.5, { x: '-100%' }, { x: '10%' });
+      tl.fromTo('.about-card', 1, { x: '-100%' }, { x: '10%' });
+    } else {
+      tl.to('.about-card', { ease: 'none', x: '-50%' });
     }
+
     if (destination.index === 2) {
-      const skillsCard = document.querySelectorAll('.skills');
-      tl.fromTo(skillsCard, 0.5, { x: '50%' }, { x: '-10%' });
+      tl.fromTo('.skills-card', 1, { x: '100%' }, { x: '-10%' });
     }
   },
 });

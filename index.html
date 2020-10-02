@@ -39,7 +39,7 @@
 
     <div id="fullpage">
       <!-- Landing Section -->
-      <div id="section-1" class="section" data-anchor="page1">
+      <div id="section-1" class="section landing" data-anchor="page1">
         <div class="container d-flex align-items-center justify-content-center">
           <div class="row">
             <div class="text-center">
@@ -62,10 +62,12 @@
       <!-- End Landing Section -->
 
       <!-- About Section -->
-      <div id="section-2" class="section" data-anchor="page2">
-        <div class="container-fluid content align-items-center d-flex about">
+      <div id="section-2" class="section about" data-anchor="page2">
+        <div
+          class="container-fluid content align-items-center d-flex about-card"
+        >
           <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 shadow about-card">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 shadow">
               <h2 class="pt-3">About Me</h2>
               <hr align="left" />
               <p>
@@ -92,8 +94,8 @@
       <!-- End About Section -->
 
       <!-- Skills Section -->
-      <div id="section-3" class="section">
-        <div class="container-fluid content skills">
+      <div id="section-3" class="section skills">
+        <div class="container-fluid content skills-card">
           <div class="row h-100 align-items-center">
             <div
               class="col-lg-5 offset-lg-7 col-md-8 offset-md-4 col-sm-12 shadow"
@@ -205,9 +207,9 @@
       <!-- End Skills Section -->
 
       <!-- Portfolio -->
-      <div id="section-4" class="section">
+      <div id="section-4" class="section portfolio">
         <div
-          class="container-fluid d-flex content align-items-center justify-content-center portfolio"
+          class="container-fluid d-flex content align-items-center justify-content-center portfolio-card"
         >
           <div class="row text-center shadow">
             <div class="col">
@@ -246,7 +248,7 @@
       </div>
       <!-- End Portfolio Section -->
 
-      <div id="section-5" class="section">
+      <div id="section-5" class="section contact">
         <div
           class="container d-flex h-100 align-items-center justify-content-center"
         >
@@ -266,7 +268,7 @@
       </div>
     </div>
 
-    <footer>
+    <!-- <footer>
       <div
         class="container h-100 d-flex align-items-center justify-content-center"
       >
@@ -281,7 +283,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- MODALS -->
     <!-- Giem Photography Modal -->
@@ -404,6 +406,11 @@
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
       crossorigin="anonymous"
     ></script>
     <script

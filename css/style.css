@@ -157,23 +157,71 @@ footer {
 .fp-slidesNav ul li a span {
   background: #139276; }
 
-#type {
-  color: #9f9f9f; }
+.landing.active {
+  visibility: visible;
+  opacity: 1; }
 
-.sub {
-  height: 40px; }
+.landing {
+  position: absolute !important;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s linear; }
+  .landing #type {
+    color: #9f9f9f; }
+  .landing .sub {
+    height: 40px; }
+
+.about.active {
+  visibility: visible;
+  transition: 1s;
+  opacity: 1; }
 
 .about {
-  width: 100%; }
+  position: absolute !important;
+  z-index: 75;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  transition: 1s; }
+  .about .email {
+    color: #139276;
+    text-decoration: none; }
+    .about .email:hover {
+      color: #139276; }
 
-.email {
-  color: #139276;
-  text-decoration: none; }
-  .email:hover {
-    color: #139276; }
+.skills.active {
+  visibility: visible;
+  transition: 1s;
+  opacity: 1; }
 
-.skills .card {
-  padding-bottom: 1rem; }
+.skills {
+  z-index: 50;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s; }
+  .skills .skills-card {
+    transform: translate(100%); }
+    .skills .skills-card .card {
+      padding-bottom: 1rem; }
+
+.portfolio.active {
+  visibility: visible; }
+
+.portfolio {
+  visibility: hidden;
+  z-index: 25; }
+
+.contact.active {
+  visibility: visible !important;
+  opacity: 1; }
+
+.contact {
+  position: absolute !important;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s linear; }
 
 .modal-button {
   background-color: #2d2d2d;

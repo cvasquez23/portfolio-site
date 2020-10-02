@@ -1,35 +1,97 @@
 //Landing
-#type {
-  color: $comment;
+.landing.active {
+  visibility: visible;
+  opacity: 1;
 }
 
-.sub {
-  height: 40px;
+.landing {
+  position: absolute !important;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 1s linear;
+
+  #type {
+    color: $comment;
+  }
+
+  .sub {
+    height: 40px;
+  }
 }
 
 //About
-.about {
-  width: 100%;
-  // To fix off-screen on mobile put this in a for-sm-only mixin
-  // margin-left: -10%;
+.about.active {
+  visibility: visible;
+  transition: 1s;
+  opacity: 1;
 }
 
-.email {
-  color: $link-color;
-  text-decoration: none;
+.about {
+  position: absolute !important;
+  z-index: 75;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  transition: 1s;
 
-  &:hover {
+  .about-card {
+    //transform: translate(-100%);
+  }
+  .email {
     color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+    }
   }
 }
 
 //Skills
+.skills.active {
+  visibility: visible;
+  transition: 1s;
+  opacity: 1;
+}
+
 .skills {
-  .card {
-    padding-bottom: 1rem;
+  //position: absolute !important;
+  z-index: 50;
+  visibility: hidden;
+  opacity: 0;
+  //width: 100%;
+  transition: 1s;
+  .skills-card {
+    transform: translate(100%);
+    .card {
+      padding-bottom: 1rem;
+    }
   }
 }
 
 //Portfolio
+.portfolio.active {
+  visibility: visible;
+}
+
 .portfolio {
+  visibility: hidden;
+  z-index: 25;
+}
+
+//Contact
+.contact.active {
+  visibility: visible !important;
+  opacity: 1;
+}
+
+.contact {
+  position: absolute !important;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 1s linear;
 }
