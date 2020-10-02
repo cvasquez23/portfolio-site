@@ -1,7 +1,8 @@
 //Fullpage JS
 var myFullpage = new fullpage('#fullpage', {
   //navigation: true,
-  //anchors: ['page1', 'page2'],
+  anchors: ['page1', 'page2'],
+  lockAnchors: true,
   scrollingSpeed: 1500,
   easing: 'ease-in-out',
   onLeave: (origin, destination, direction) => {
@@ -20,9 +21,10 @@ var myFullpage = new fullpage('#fullpage', {
   },
 });
 
-// $(document).on('click', '#slide2', function () {
-//   fullpage_api.moveTo('page2');
-// });
+function slide2() {
+  var element = document.getElementById('#slide2');
+  fullpage_api.moveTo('page2');
+}
 
 // Nav Toggle
 function menuToggle() {
