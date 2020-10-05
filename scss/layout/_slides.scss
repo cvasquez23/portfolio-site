@@ -9,8 +9,7 @@
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-
-  transition: 1s linear;
+  transition: 1.5s linear;
 
   #type {
     color: $comment;
@@ -24,17 +23,10 @@
 //About
 .about.active {
   visibility: visible;
-  transition: 1s;
-  opacity: 1;
 }
 
 .about {
-  position: absolute !important;
-  z-index: 75;
-  visibility: hidden;
-  opacity: 0;
   width: 100%;
-  transition: 1s;
 
   .about-card {
     //transform: translate(-100%);
@@ -50,19 +42,9 @@
 }
 
 //Skills
-.skills.active {
-  visibility: visible;
-  transition: 1s;
-  opacity: 1;
-}
-
 .skills {
-  //position: absolute !important;
-  z-index: 50;
-  visibility: hidden;
-  opacity: 0;
   //width: 100%;
-  transition: 1s;
+
   .skills-card {
     transform: translate(100%);
     .card {
@@ -72,13 +54,9 @@
 }
 
 //Portfolio
-.portfolio.active {
-  visibility: visible;
-}
 
 .portfolio {
-  visibility: hidden;
-  z-index: 25;
+  position: absolute;
 }
 
 //Contact
@@ -92,6 +70,5 @@
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-
-  transition: 1s linear;
+  transition: 1.5s linear;
 }

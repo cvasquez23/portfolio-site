@@ -34,6 +34,9 @@ body {
 html,
 body {
   font-family: 'monoid'; }
+  html a,
+  body a {
+    text-decoration: none; }
 
 footer {
   height: 15vh;
@@ -166,51 +169,30 @@ footer {
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  transition: 1s linear; }
+  transition: 1.5s linear; }
   .landing #type {
     color: #9f9f9f; }
   .landing .sub {
     height: 40px; }
 
 .about.active {
-  visibility: visible;
-  transition: 1s;
-  opacity: 1; }
+  visibility: visible; }
 
 .about {
-  position: absolute !important;
-  z-index: 75;
-  visibility: hidden;
-  opacity: 0;
-  width: 100%;
-  transition: 1s; }
+  width: 100%; }
   .about .email {
     color: #139276;
     text-decoration: none; }
     .about .email:hover {
       color: #139276; }
 
-.skills.active {
-  visibility: visible;
-  transition: 1s;
-  opacity: 1; }
-
-.skills {
-  z-index: 50;
-  visibility: hidden;
-  opacity: 0;
-  transition: 1s; }
-  .skills .skills-card {
-    transform: translate(100%); }
-    .skills .skills-card .card {
-      padding-bottom: 1rem; }
-
-.portfolio.active {
-  visibility: visible; }
+.skills .skills-card {
+  transform: translate(100%); }
+  .skills .skills-card .card {
+    padding-bottom: 1rem; }
 
 .portfolio {
-  visibility: hidden;
-  z-index: 25; }
+  position: absolute; }
 
 .contact.active {
   visibility: visible !important;
@@ -221,7 +203,7 @@ footer {
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  transition: 1s linear; }
+  transition: 1.5s linear; }
 
 .modal-button {
   background-color: #2d2d2d;

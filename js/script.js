@@ -1,19 +1,19 @@
 //Fullpage JS
 var myFullpage = new fullpage('#fullpage', {
   //navigation: true,
-  anchors: ['page1', 'page2'],
+  anchors: ['page1', 'page2', 'page3', 'page4'],
   lockAnchors: true,
   scrollingSpeed: 1500,
   easing: 'ease-in-out',
+  fitToSection: true,
+  fitToSectionDelay: 1000,
   onLeave: (origin, destination, direction) => {
     const section = destination.item;
     // const title = section.querySelector('.section');
     const tl = gsap.timeline();
     // tl.fromTo(title, 0.5, { opacity: '1' }, { opacity: '0' });
     if (destination.index === 1) {
-      tl.fromTo('.about-card', 1, { x: '-100%' }, { x: '10%' });
-    } else {
-      tl.to('.about-card', { ease: 'none', x: '-50%' });
+      tl.fromTo('.about-card', 1.5, { x: '-100%' }, { x: '10%' });
     }
 
     if (destination.index === 2) {
