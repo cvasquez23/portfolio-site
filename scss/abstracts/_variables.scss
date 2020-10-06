@@ -9,3 +9,10 @@ $link-color: #139276;
 
 $delay: visibility 1s;
 $delay-2: 1s;
+
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+);

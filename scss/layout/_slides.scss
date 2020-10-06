@@ -9,7 +9,7 @@
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  transition: 1.5s linear;
+  transition: 1s linear;
 
   #type {
     color: $comment;
@@ -21,15 +21,14 @@
 }
 
 //About
-.about.active {
-  visibility: visible;
-}
-
 .about {
   width: 100%;
 
   .about-card {
-    //transform: translate(-100%);
+    transform: translate(-100%);
+    @include respond-below(sm) {
+      margin-left: -10%;
+    }
   }
   .email {
     color: $link-color;
@@ -47,6 +46,10 @@
 
   .skills-card {
     transform: translate(100%);
+
+    @include respond-below(sm) {
+      margin-right: -10%;
+    }
     .card {
       padding-bottom: 1rem;
     }
@@ -54,9 +57,14 @@
 }
 
 //Portfolio
-
 .portfolio {
   position: absolute;
+
+  .portfolio-card {
+    .card-button {
+      width: auto;
+    }
+  }
 }
 
 //Contact
@@ -70,5 +78,9 @@
   z-index: 100;
   visibility: hidden;
   opacity: 0;
-  transition: 1.5s linear;
+  transition: 1s linear;
+
+  .contact-footer {
+    background-color: $comp-color;
+  }
 }

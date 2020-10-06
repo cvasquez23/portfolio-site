@@ -27,10 +27,6 @@
     right: -9000px;
     padding: 0;
     list-style: none;
-
-    a {
-      //padding: 0;
-    }
   }
 }
 
@@ -95,7 +91,7 @@
     margin-right: 10%;
     padding-left: 10%;
 
-    @include for-md-only {
+    @include respond-above(md) {
       margin: 0;
     }
     //padding: 50px;

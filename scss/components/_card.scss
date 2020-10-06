@@ -3,15 +3,8 @@
   background-color: $secondary-color;
   width: 6rem;
 
-  @include for-sm-only {
+  @include respond-above(md) {
     width: 6.5rem;
-  }
-
-  span {
-    //font-size: 0.55rem;
-    @include for-sm-only {
-      //font-size: 1rem;
-    }
   }
 
   i {

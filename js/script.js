@@ -11,13 +11,13 @@ var myFullpage = new fullpage('#fullpage', {
     const section = destination.item;
     // const title = section.querySelector('.section');
     const tl = gsap.timeline();
-    // tl.fromTo(title, 0.5, { opacity: '1' }, { opacity: '0' });
+    // gsap.set('.landing', { opacity: '1', visibility: 'visible' });
     if (destination.index === 1) {
       tl.fromTo('.about-card', 1.5, { x: '-100%' }, { x: '10%' });
     }
 
     if (destination.index === 2) {
-      tl.fromTo('.skills-card', 1, { x: '100%' }, { x: '-10%' });
+      tl.fromTo('.skills-card', 1.5, { x: '100%' }, { x: '-10%' });
     }
   },
 });

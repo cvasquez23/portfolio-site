@@ -5,7 +5,7 @@ footer {
   background-color: $comp-color;
   color: $primary-color;
 
-  @include for-md-only {
+  @include respond-above(md) {
     height: 10vh;
     height: calc(var(--vh, 1vh) * 10);
   }

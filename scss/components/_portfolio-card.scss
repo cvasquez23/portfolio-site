@@ -14,17 +14,17 @@
   //box-shadow: 0 30px 30px 5px rgba(15, 26, 39, 0.2);
   border-radius: 0.3rem;
   //width: 100%;
-  @include for-sm-only {
+  @include respond-above(sm) {
     height: 15rem;
     width: 20rem;
   }
 
-  @include for-md-only {
+  @include respond-above(md) {
     width: 30rem;
     height: 20rem;
   }
 
-  @include for-xl-only {
+  @include respond-above(lg) {
     width: 35rem;
   }
 
