@@ -22,7 +22,7 @@ function style() {
       .pipe(sass().on('error', sass.logError))
 
       // where to save
-      .pipe(gulp.dest('./css'))
+      .pipe(gulp.dest('.'))
 
       // stream changes to all browsers
       .pipe(browserSync.stream())
@@ -31,12 +31,12 @@ function style() {
 
 function watch() {
   browserSync.init({
-    //proxy: '', //place WAMP url here
+    proxy: 'http://localhost:8080/portfolio/',
 
     //If not using WAMP/MAMP/LAMP
-    server: {
-      baseDir: './',
-    },
+    // server: {
+    //   baseDir: './',
+    // },
   });
   gulp.watch('./scss/**/*.scss', style);
   gulp.watch('./**/*.html').on('change', browserSync.reload);
