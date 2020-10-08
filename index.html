@@ -262,11 +262,16 @@
             <div class="col text-center">
               <h2 class="pt-2">Let's Chat</h2>
               <hr class="ml-auto mr-auto" />
-              <form class="contact-form">
+              <form
+                class="contact-form"
+                method="POST"
+                action="contact-form.php"
+              >
                 <div class="mb-3 contact-from-item">
                   <label for="inputName" class="visually-hidden">Name</label>
                   <input
                     type="text"
+                    name="name"
                     class="form-control"
                     id="inputName"
                     placeholder="Name*"
@@ -277,6 +282,7 @@
                   <label for="inputEmail" class="visually-hidden">Email</label>
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
                     id="inputEmail"
                     placeholder="Email*"
@@ -285,16 +291,21 @@
 
                 <div class="mb-3">
                   <label for="messageTextarea" class="visually-hidden">
-                    Example textarea
+                    Message
                   </label>
                   <textarea
                     class="form-control"
+                    name="message"
                     id="messageTextarea"
                     placeholder="Message"
-                    rows="1"
+                    rows="3"
                   ></textarea>
                 </div>
-                <button type="submit" class="modal-button slide-inside">
+                <button
+                  name="submit"
+                  type="submit"
+                  class="modal-button slide-inside"
+                >
                   Email Me
                 </button>
               </form>
