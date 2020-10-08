@@ -262,12 +262,42 @@
             <div class="col text-center">
               <h2 class="pt-2">Let's Chat</h2>
               <hr class="ml-auto mr-auto" />
-              <button
-                class="modal-button slide-inside"
-                onclick="location.href='mailto:chris@chrisvasquez.dev'"
-              >
-                Email Me
-              </button>
+              <form class="contact-form">
+                <div class="mb-3 contact-from-item">
+                  <label for="inputName" class="visually-hidden">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Name*"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="inputEmail" class="visually-hidden">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email*"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="messageTextarea" class="visually-hidden">
+                    Example textarea
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="messageTextarea"
+                    placeholder="Message"
+                    rows="1"
+                  ></textarea>
+                </div>
+                <button type="submit" class="modal-button slide-inside">
+                  Email Me
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -367,7 +397,7 @@
             <h5 class="modal-title" id="isabellaModalLabel">Isabella County</h5>
             <button
               type="button"
-              class="close-btn"
+              class="btn-close"
               data-dismiss="modal"
               aria-label="Close"
             ></button>

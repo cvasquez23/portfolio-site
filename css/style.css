@@ -1,3 +1,15 @@
+/*!
+Theme Name: Portfolio
+URI: https://
+Author: Chris Vasquez
+Author URI: chrisvasquez.dev
+Description: The theme for portfolio
+Version: 1.0
+License: GNU License 
+URI: 
+Text Domain: Portfolio
+Tags: 
+*/
 html,
 body {
   overflow-x: hidden;
@@ -37,6 +49,23 @@ body {
   html a,
   body a {
     text-decoration: none; }
+
+.contact-form ::placeholder {
+  color: #139276; }
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid #f5f5f5;
+  border-radius: 0;
+  background-color: #2d2d2d;
+  color: #f5f5f5; }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    background-color: #2d2d2d;
+    color: #f5f5f5;
+    box-shadow: none;
+    border-color: #f5f5f5; }
 
 footer {
   height: 15vh;
