@@ -226,7 +226,10 @@
               <div class="row">
                 <div class="col-lg-6 col-12">
                   <figure class="project-card">
-                    <img src="/img/giem1.jpg" alt="Giem Photography" />
+                    <img
+                      src="https://chrisvasquez.dev/img/giem1.jpg"
+                      alt="Giem Photography"
+                    />
                     <figcaption>
                       <h5>Giem Photography</h5>
                     </figcaption>
@@ -235,7 +238,10 @@
                 </div>
                 <div class="col-lg-6 col-sm-12">
                   <figure class="project-card">
-                    <img src="/img/isabellacounty.jpg" alt="Isabella County" />
+                    <img
+                      src="https://chrisvasquez.dev/img/isabellacounty.jpg"
+                      alt="Isabella County"
+                    />
                     <figcaption>
                       <h5>Isabella County</h5>
                     </figcaption>
@@ -265,7 +271,7 @@
               <form
                 class="contact-form"
                 method="POST"
-                action="contact-form.php"
+                action="https://chrisvasquez.dev/contact-form.php"
               >
                 <div class="mb-3 contact-from-item">
                   <label for="inputName" class="visually-hidden">Name</label>
