@@ -1,7 +1,7 @@
 //Fullpage JS
 var myFullpage = new fullpage('#fullpage', {
   //navigation: true,
-  anchors: ['page1', 'page2', 'page3', 'page4'],
+  anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
   lockAnchors: true,
   scrollingSpeed: 1500,
   easing: 'ease-in-out',
@@ -22,9 +22,30 @@ var myFullpage = new fullpage('#fullpage', {
   },
 });
 
+// Menu and Nav
+function slide1() {
+  var element = document.getElementById('#slide1');
+  fullpage_api.moveTo('page1');
+}
+
 function slide2() {
   var element = document.getElementById('#slide2');
   fullpage_api.moveTo('page2');
+}
+
+function slide3() {
+  var element = document.getElementById('#slide3');
+  fullpage_api.moveTo('page3');
+}
+
+function slide4() {
+  var element = document.getElementById('#slide4');
+  fullpage_api.moveTo('page4');
+}
+
+function slide5() {
+  var element = document.getElementById('#slide5');
+  fullpage_api.moveTo('page5');
 }
 
 // Nav Toggle

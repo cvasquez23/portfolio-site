@@ -29,15 +29,21 @@
         <div class="toggler"></div>
         <nav>
           <ul>
-            <li><a id="slide1" class="nav-link">Home</a></li>
             <li>
-              <a id="slide2" class="nav-link" onclick="menuCollapse()">
-                About
-              </a>
+              <a id="slide1" class="nav-link" onclick="slide1();">Home</a>
             </li>
-            <li><a class="nav-link" href="#section-3">Skills</a></li>
-            <li><a class="nav-link" href="#section-4">Projects</a></li>
-            <li><a class="nav-link" href="#section-5">Contact</a></li>
+            <li>
+              <a id="slide2" class="nav-link" onclick="slide2()"> About </a>
+            </li>
+            <li>
+              <a id="slide3" class="nav-link" onclick="slide3();">Skills</a>
+            </li>
+            <li>
+              <a id="slide4" class="nav-link" onclick="slide4();">Projects</a>
+            </li>
+            <li>
+              <a id="slide5" class="nav-link" onclick="slide5();">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -87,8 +93,8 @@
                 >.
               </p>
               <a
-                id="progress"
-                href="#section-3"
+                id="slide3"
+                onclick="slide3()"
                 class="ml-auto card-button slide-left"
               >
                 My Skills <i class="fad fa-chevron-double-down"></i>
@@ -207,8 +213,8 @@
                 </div>
               </div>
               <a
-                id="progress"
-                href="#section-4"
+                id="slide4"
+                onclick="slide4()"
                 class="ml-auto card-button slide-right"
               >
                 My Projects
@@ -255,8 +261,8 @@
                   </figure>
                 </div>
                 <a
-                  id="progress"
-                  href="#section-5"
+                  id="slide5"
+                  onclick="slide5()"
                   class="mx-auto card-button slide-left"
                 >
                   Contact Me <i class="fad fa-chevron-double-down"></i>
@@ -286,7 +292,7 @@
                     name="name"
                     class="form-control"
                     id="inputName"
-                    placeholder="Name*"
+                    placeholder="Name"
                   />
                 </div>
 
@@ -297,7 +303,7 @@
                     name="email"
                     class="form-control"
                     id="inputEmail"
-                    placeholder="Email*"
+                    placeholder="Email"
                   />
                 </div>
 
@@ -317,6 +323,7 @@
                   name="submit"
                   type="submit"
                   class="modal-button slide-inside"
+                  onClick="javascript:history.go(-1)"
                 >
                   Email Me
                 </button>

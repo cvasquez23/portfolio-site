@@ -35,7 +35,7 @@ function watch() {
 
     //If not using WAMP/MAMP/LAMP
     server: {
-      baseDir: './',
+      baseDir: 'http://localhost:8080/portfolio-sitegu',
     },
   });
   gulp.watch('./scss/**/*.scss', style);
