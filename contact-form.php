@@ -17,7 +17,6 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     $body .= 'Message: ' . $message . "\r\n";
 
     mail($to, $subject, $body, $from);
-    header('Location: http://localhost:8080/portfolio-site/index.php#page5');
 
     $message_sent = true;
   }
@@ -75,7 +74,22 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
       </div>
     </header>
     <div id="fullpage">
-      <h1>Thanks Bitch</h1>
+    <div id="section-1" class="section">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="text-center">
+              <h1>Thanks for reaching out! I'll get back to you soon!</h1>
+              
+              <a
+                class="ml-auto card-button slide-left"
+                href= "https://chrisvasqeuz.dev"
+              >
+                Go Back <i class="fad fa-chevron-double-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
