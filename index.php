@@ -284,7 +284,7 @@
               <form
                 class="contact-form"
                 method="POST"
-                action="https://chrisvasquez.dev/contact-form.php"
+                action="https://test.chrisvasquez.dev/contact-form.php"
               >
                 <div class="mb-3 contact-from-item">
                   <label for="inputName" class="visually-hidden">Name</label>
