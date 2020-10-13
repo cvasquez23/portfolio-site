@@ -227,8 +227,10 @@ footer {
 
 .portfolio {
   position: absolute; }
-  .portfolio .portfolio-card .card-button {
-    width: auto; }
+  .portfolio .portfolio-card {
+    transform: translate(0, 150%); }
+    .portfolio .portfolio-card .card-button {
+      width: auto; }
 
 .contact.active {
   visibility: visible !important;

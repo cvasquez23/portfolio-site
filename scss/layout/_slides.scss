@@ -61,6 +61,8 @@
   position: absolute;
 
   .portfolio-card {
+    transform: translate(0, 150%);
+
     .card-button {
       width: auto;
     }

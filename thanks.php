@@ -13,11 +13,11 @@
     />
     <link
       rel="stylesheet"
-      href="http://localhost:8080/portfolio-sitev/css/fullpage.css"
+      href="https://test.chrisvasquez.dev/css/fullpage.css"
     />
     <link
       rel="stylesheet"
-      href="http://localhost:8080/portfolio-site/css/style.css"
+      href="https://test.chrisvasquez.dev/css/style.css"
     />
 
     <link rel="shortcut icon" href="/cv.ico" type="image/x-icon" />
@@ -49,11 +49,12 @@
       </div>
     </header>
     <div id="fullpage">
-    <div class="section">
+    <div class="section thanks">
         <div class="container d-flex align-items-center justify-content-center">
           <div class="row">
             <div class="text-center">
-              <h1>Thanks for reaching out! I'll get back to you soon!</h1>
+              <h1>Thank you for your message!</h1>
+              <h2>I'll get back to you soon!</h2>
               
               <a
                 class="ml-auto card-button slide-left"
@@ -96,7 +97,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="http://localhost:8080/portfolio-site/js/fullpage.js"></script>
-    <script src="http://localhost:8080/portfolio-site/js/script.js"></script>
+    <script src="https://test.chrisvasquez.dev/js/fullpage.js"></script>
+    <script src="https://test.chrisvasquez.dev/js/script.js"></script>
   </body>
 </html>
