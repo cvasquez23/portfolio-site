@@ -46,7 +46,7 @@ Web Development
 
 Software
 
-    Adobe Creative Suite, Figma, Mac OS, Windows OS
+    Adobe Creative Suite, Microsoft Office, Figma, Mac OS, Windows OS
 
 ---
 
