@@ -24,37 +24,13 @@
     <title>Chris Vasquez</title>
   </head>
   <body>
-    <header>
-      <div id="nav" class="menu-collapsed" onclick="menuToggle()">
-        <div class="toggler"></div>
-        <nav>
-          <ul>
-            <li>
-              <a id="slide1" class="nav-link" onclick="slide1();">Home</a>
-            </li>
-            <li>
-              <a id="slide2" class="nav-link" onclick="slide2()"> About </a>
-            </li>
-            <li>
-              <a id="slide3" class="nav-link" onclick="slide3();">Skills</a>
-            </li>
-            <li>
-              <a id="slide4" class="nav-link" onclick="slide4();">Projects</a>
-            </li>
-            <li>
-              <a id="slide5" class="nav-link" onclick="slide5();">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
     <div id="fullpage">
     <div class="section thanks">
         <div class="container d-flex align-items-center justify-content-center">
           <div class="row">
             <div class="text-center">
-              <h1>Thanks for your message</h1>
-              <h2>I'll get back to you soon</h2>
+              <h1>Thank you for getting in touch!</h1>
+              <p>I will reach out to you soon.</p>
               <a
                 class="ml-auto card-button slide-inside"
                 href= "https://chrisvasquez.dev"
