@@ -53,14 +53,13 @@
         <div class="container d-flex align-items-center justify-content-center">
           <div class="row">
             <div class="text-center">
-              <h1>Thank you for your message!</h1>
-              <h2>I'll get back to you soon!</h2>
-              
+              <h1>Thanks for your message</h1>
+              <h2>I'll get back to you soon</h2>
               <a
-                class="ml-auto card-button slide-left"
-                href= "https://chrisvasqeuz.dev"
+                class="ml-auto card-button slide-inside"
+                href= "https://chrisvasquez.dev"
               >
-                Go Back <i class="fad fa-chevron-double-down"></i>
+                Go Back
               </a>
             </div>
           </div>

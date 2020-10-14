@@ -20,7 +20,7 @@ var myFullpage = new fullpage('#fullpage', {
       tl.fromTo('.skills-card', 1.5, { x: '100%' }, { x: '-10%' });
     }
 
-    if (destination.index === 2) {
+    if (destination.index === 3) {
       tl.fromTo('.portfolio-card', 1.5, { y: '150%' }, { y: '0%' });
     }
   },
