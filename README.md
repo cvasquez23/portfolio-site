@@ -2,7 +2,7 @@
 
 ---
 
-> Web developer with 4+ years experience developing, 
+> Web developer with 5 years experience developing,
 > implementing and maintaining websites. Passionate
 > for learning, building and bringing websites to life.
 > Seeking a remote web development position.
@@ -42,11 +42,11 @@ Developing a WordPress theme and website for Giem Photography.
 
 Web Development
 
-    HTML5, CSS3, SCSS, JavaScript, jQuery, MySQL, Bootstrap, WordPress, Git Version Control, NPM, cPanel, WAMP, LAMP
+    HTML5, CSS3, SCSS, JavaScript, jQuery, MySQL, Bootstrap, WordPress, Git Version Control, NPM, cPanel, WAMP, MAMP
 
 Software
 
-    Adobe Creative Suite, Mac OS, Windows OS, Linux OS
+    Adobe Creative Suite, Microsoft Office, Figma, Mac OS, Windows OS
 
 ---
 

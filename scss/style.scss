@@ -1,24 +1,21 @@
-/*!
-Theme Name: Portfolio
-URI: https://
-Author: Chris Vasquez
-Author URI: chrisvasquez.dev
-Description: The theme for portfolio
+/*
+Theme Name:
+Theme URI:
+Author: 
+Author URI:
+Description: 
 Version: 1.0
-License: GNU License 
-URI: 
-Text Domain: Portfolio
-Tags: 
+Text Domain: 
 */
 
-@import 'abstracts/mixins', 'abstracts/variables';
+@charset 'UTF-8';
 
-@import 'base/base', 'base/typography';
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins';
 
-@import 'layout/contact-form', 'layout/footer', 'layout/nav', 'layout/slides';
+@import 'base/base', 'base/fonts', 'base/typography';
 
-@import 'pages/thanks.scss';
+@import 'layout/navigation', 'layout/footer';
 
-@import 'components/button', 'components/card', 'components/hr',
-  'components/indicator', 'components/modal', 'components/portfolio-card',
-  'components/text-cursor';
+@import 'components/scrollbar';
+
+@import 'pages/home';

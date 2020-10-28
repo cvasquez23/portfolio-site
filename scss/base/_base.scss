@@ -1,39 +1,4 @@
 html,
 body {
-  overflow-x: hidden;
-  background-color: $secondary-color;
-  width: 100%;
-}
-
-#section {
-  &-1 {
-    background-color: $primary-color;
-    color: $secondary-font-color;
-    span {
-      font-size: 1.2rem;
-    }
-  }
-
-  &-2,
-  &-3,
-  &-4 {
-    background-color: $secondary-color;
-  }
-
-  &-5 {
-    background-color: $primary-color;
-    color: $secondary-font-color;
-    height: 85vh;
-    height: calc(var(--vh, 1vh) * 85);
-    //opacity: 0;
-
-    @include respond-above(md) {
-      height: 90vh;
-      height: calc(var(--vh, 1vh) * 90);
-    }
-
-    hr {
-      border-color: $secondary-color;
-    }
-  }
+  background-color: $primary-color;
 }

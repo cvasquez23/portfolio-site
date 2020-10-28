@@ -22,7 +22,7 @@ function style() {
       .pipe(sass().on('error', sass.logError))
 
       // where to save
-      .pipe(gulp.dest('./css/'))
+      .pipe(gulp.dest('./css'))
 
       // stream changes to all browsers
       .pipe(browserSync.stream())
@@ -31,11 +31,11 @@ function style() {
 
 function watch() {
   browserSync.init({
-    //proxy: '',
+    //proxy: '', //place WAMP url here
 
     //If not using WAMP/MAMP/LAMP
     server: {
-      baseDir: 'http://localhost:8080/portfolio-site/index.php',
+      baseDir: './',
     },
   });
   gulp.watch('./scss/**/*.scss', style);

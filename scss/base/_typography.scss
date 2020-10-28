@@ -1,38 +1,24 @@
-//Fonts
-@font-face {
-  font-family: 'monoid';
-  src: url('https://test.chrisvasquez.dev/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff2')
-      format('woff2'),
-    url('https://test.chrisvasquez.dev/css/fonts/monoid-a0-a1-a3-al-ad-aa-webfont.woff')
-      format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html,
 body {
-  font-family: 'monoid';
-
+  h1,
   a {
-    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    font-size: 9rem;
+  }
+  a {
+    font-size: 1.5rem;
   }
 }
 
-$h1-xl: 3rem;
-$h2-xl: 2.5rem;
-$h3-xl: 1.5rem;
-$p-xl: 1.5rem;
-$span-xl: 1.7rem;
-$i-xl: 3rem;
-$button-xl: 0.9rem;
+nav {
+  .nav-link {
+    color: $secondary-color;
+  }
+}
 
-$h1-lg: 0.5rem;
-$h2-lg: 2.75rem;
-
-$h1-sm: 1.5rem;
-$h2-sm: 1.25rem;
-$h3-sm: 0.75rem;
-$p-sm: 0.75rem;
-$span-sm: 0.85rem;
-$i-sm: 1.5rem;
-$button-sm: 0.45rem;
+section {
+  color: $secondary-color;
+}
