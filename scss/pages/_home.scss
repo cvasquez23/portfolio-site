@@ -1,14 +1,42 @@
+//Animations
 .hide {
-  background: black;
-  overflow: hidden;
+  h1 {
+    background: black;
+    overflow: hidden;
+  }
 
   span {
     transform: translateY(100%);
     display: inline-block;
+    transition: 0.3s ease-in-out;
   }
 }
 
+.show {
+  span {
+    transform: translateY(0%);
+  }
+}
+
+//Landing Section
 .landing {
   height: 100vh;
-  align-items: center;
+
+  .landing-title {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+  }
+}
+
+.about {
+  height: 100vh;
+
+  .about-title {
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    transform: translate(-130%, -150%);
+  }
 }
