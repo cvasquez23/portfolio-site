@@ -1,17 +1,21 @@
 //GSAP
-gsap.to(landing, {
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".landing-title", {
   scrollTrigger: {
-    trigger: hides[1],
+    trigger: ".landing-title",
     toggleClass: "show",
-    start: "top center"
+    start: "top center",
+    markers: true
   }
 });
 
-gsap.to(about, {
+gsap.to('.about', {
   scrollTrigger: {
-    trigger: hides[2],
+    trigger: '.about',
     toggleClass: "show",
-    start: "top center"
+    start: "top center",
+    markers: true
   }
 });
 

@@ -1,0 +1,11 @@
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .item-right {
+    justify-content: flex-end;
+  }
+}

@@ -5,6 +5,11 @@
     overflow: hidden;
   }
 
+  p {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+
   span {
     transform: translateY(100%);
     display: inline-block;
@@ -16,27 +21,9 @@
   span {
     transform: translateY(0%);
   }
-}
 
-//Landing Section
-.landing {
-  height: 100vh;
-
-  .landing-title {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-30%, -50%);
+  p {
+    opacity: 1;
   }
 }
 
-.about {
-  height: 100vh;
-
-  .about-title {
-    position: absolute;
-    top: 150%;
-    left: 30%;
-    transform: translate(-130%, -150%);
-  }
-}

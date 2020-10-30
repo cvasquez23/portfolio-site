@@ -1,4 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 html,
 body {
   background-color: $primary-color;
+
+  #home {
+    height: 100vh !important;
+  }
+  section {
+    height: 50vh;
+  }
 }
