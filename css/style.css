@@ -22,7 +22,7 @@ body {
     height: 100vh !important; }
   html section,
   body section {
-    height: 50vh; }
+    height: 75vh; }
 
 html h1,
 html a,
@@ -32,7 +32,11 @@ body a {
 
 html h1,
 body h1 {
-  font-size: 9rem; }
+  font-size: 3rem; }
+  @media (min-width: 992px) {
+    html h1,
+    body h1 {
+      font-size: 9rem; } }
 
 html a,
 body a {
@@ -158,7 +162,9 @@ nav {
     opacity: 1; }
 
 ::-webkit-scrollbar {
-  width: 0; }
+  width: 0;
+  height: 0;
+  display: none; }
 
 #scrollPath {
   position: fixed;

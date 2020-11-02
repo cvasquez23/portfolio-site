@@ -19,6 +19,15 @@ gsap.to('.about', {
   }
 });
 
+gsap.to('.work', {
+  scrollTrigger: {
+    trigger: '.work',
+    toggleClass: "show",
+    start: "top center",
+    markers: true
+  }
+});
+
 //Nav Bar Toggle 
 function toggleNav(){
   var elm = document.getElementById("navToggle").checked = false;
